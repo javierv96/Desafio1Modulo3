@@ -18,7 +18,7 @@ switch (opcion) {
             alert("Lastima, Gana la3 Computadora");
         }
         // Piedra V/s Tijera
-        else if (computadora === 2) {
+        else if (computadora === 3) {
             alert("Felicidades, Ganaste!");
         }
         break;
@@ -33,7 +33,7 @@ switch (opcion) {
             alert("Empate");
         }
         // Papel V/s Tijera
-        else if (computadora === 2) {
+        else if (computadora === 3) {
             alert("Lastima, Gana la Computadora");
         }
         break;
@@ -48,7 +48,7 @@ switch (opcion) {
             alert("Felicidades, Ganaste!");
         }
         // Tijera V/s Tijera
-        else if (computadora === 2) {
+        else if (computadora === 3) {
             alert("Empate");
         }
         break;
