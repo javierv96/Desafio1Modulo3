@@ -2,7 +2,7 @@
 const computadora = Math.floor(Math.random() * 3) + 1;
 
 //Ingreso de opcion Player 1
-const opcion = parseInt(prompt("Ingrese 1 para elegir Pierda, 2 para elegir Papel, 3 para elegir Tijera"));
+const opcion = parseInt(prompt("Ingrese 1 para elegir Piedra, 2 para elegir Papel, 3 para elegir Tijera"));
 console.log(opcion)
 
 //switch Player 1
@@ -15,7 +15,7 @@ switch (opcion) {
         }
         // Piedra V/s Papel
         else if (computadora === 2) {
-            alert("Lastima, Gana la3 Computadora");
+            alert("Lastima, Gana la Computadora");
         }
         // Piedra V/s Tijera
         else if (computadora === 3) {
