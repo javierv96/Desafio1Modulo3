@@ -1,7 +1,7 @@
 //ingreso cantidad de rondas
 const rondas = parseInt(prompt("Ingrese la cantidad de rondas que quiere jugar"));
 //ciclo de rondas a jugar
-for (var i = 1; i <= rondas; i++) {
+for (let i = 1; i <= rondas; i++) {
     //Random opcion computadora
     const computadora = Math.floor(Math.random() * 3) + 1;
     //Ingreso de opcion Player 1
