@@ -1,9 +1,6 @@
 //ingreso cantidad de rondas
 const rondas = parseInt(prompt("Ingrese la cantidad de rondas que quiere jugar"));
-
-juego(rondas);
-
-function juego(rondas){
+function juego(rondas) {
     //ciclo de rondas a jugar
     for (let i = 1; i <= rondas; i++) {
         //Random opcion computadora
@@ -66,3 +63,5 @@ function juego(rondas){
     }
     return resultado;
 }
+
+juego(rondas);
